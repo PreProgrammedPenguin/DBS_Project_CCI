@@ -6,7 +6,7 @@ public class DBSConnection {
 	
 	public DBSConnection() {
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "apple@itachi");	
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "<password>");	
 			System.out.println("Connected to DB.");
 		} catch(SQLException e) {
 			e.printStackTrace();
